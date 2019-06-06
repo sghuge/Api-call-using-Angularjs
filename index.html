@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AngularJS $Http service tutorial example</title>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  </head>
+  <body>
+    <div ng-app="myApp" ng-controller="AngularCtrl"> 
+        <table>
+          <tr ng-repeat="x in response">
+            <td>{{ x.GuestNumber }}</td>
+            <td>{{ x.Guest_Title }}</td>
+            <td>{{ x.Guest_First_Name }}</td>
+            <td>{{ x.GuestName }}</td>
+            <td>{{ x.RoomNumber }}</td>
+          </tr>
+        </table>
+        </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
